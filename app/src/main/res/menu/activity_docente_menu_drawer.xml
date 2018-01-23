@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Asesorias">
+        <menu>
+        <item
+            android:id="@+id/ProgramarA"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Programar asesoria " />
+        <item
+            android:id="@+id/VisualizarA"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Visualizar asesoria " />
+        </menu>
+        </item>
+
+    </group>
+
+    <item android:title="Guias">
+        <menu>
+            <item
+                android:id="@+id/SubirGuia"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Subir guia" />
+            <item
+                android:id="@+id/EliminarGuia"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Eliminar guia" />
+        </menu>
+    </item>
+
+</menu>

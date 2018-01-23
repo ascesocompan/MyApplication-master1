@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Opciones">
+    
+    <item>Fisico-Matematicas</item>
+        <item>Ciencias sociales y administrativas </item>
+        <item>Medico-Biologicas</item>
+        <item>Artes y Humanidades</item>
+</string-array>
+
+</resources>
