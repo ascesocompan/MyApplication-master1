@@ -45,7 +45,7 @@
         android:layout_marginTop="28dp"
         android:text="@string/ingresar"
         android:textColor="@color/colorPrimary"
-        android:onClick="onClick"/>
+       />
 
     <TextView
         android:id="@+id/tview_registrarP"
@@ -54,7 +54,7 @@
         android:layout_below="@+id/button_ingresar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
-        android:onClick="onClick"
+
         android:text="@string/registrar"
         android:textAlignment="center"
         android:textColor="@color/NEGRO" />

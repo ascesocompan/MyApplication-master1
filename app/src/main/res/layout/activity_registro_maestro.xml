@@ -68,14 +68,14 @@
         android:id="@+id/txt_usuarioP" />
 
     <EditText
+        android:id="@+id/txt_contrasena"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/txt_usuarioP"
         android:layout_marginTop="16dp"
         android:hint="@string/contrase_a"
-        android:inputType="textPassword"
-        android:id="@+id/editText10" />
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/button_registrarP"
